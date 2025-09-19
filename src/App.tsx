@@ -10,6 +10,7 @@ import Container from './components/layouts/Container'
 import Footer from './components/layouts/Footer'
 import NavBar from './components/layouts/NavBar'
 import Projects from './components/pages/Projects'
+import Project from './components/pages/Project'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
         <Route path='/company'   element={<Company/>}/>
         <Route path='/projects'element={<Projects/>}/>
         <Route path='/newproject'element={<NewProject/>}/>
-        <Route path='/project'element={<NewProject/>}/>
+        <Route path='/project/:id'element={<Project/>}/>
       </Route>
       
     </Routes>

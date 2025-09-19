@@ -7,7 +7,6 @@ import styles from './NewProject.module.css'
 function NewProject() {
     // useNavigate
     const history = useNavigate()
-
     function createPost(project: any) {
         // geralmente essa operação fica no backend
         //  initialize cost and services
@@ -24,6 +23,7 @@ function NewProject() {
             .then((data)=> {
                 console.log(data)
                 // redirect
+                history('/projects',{state: {message: 'Projeto criado com sucesso!'}})
             })
             .catch(err=>console.log(err))
 

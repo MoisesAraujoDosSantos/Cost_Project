@@ -1,22 +1,79 @@
 {
-    "projects": [],
-    "categories": [
+  "projects": [
+    {
+      "id": "2a16",
+      "name": "marvel",
+      "cost": "0",
+      "services": [],
+      "budget": "1234",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      }
+    },
+    {
+      "id": "5172",
+      "budget": "1999",
+      "name": "DC",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": "53",
+      "services": [
         {
-            "id": 1,
-            "name": "Infra"
+          "name": "liga da justiça",
+          "cost": "12",
+          "description": "contratar dubles",
+          "id": "a5589976-4670-41b9-a9c2-c6308526852e"
         },
         {
-            "id": 2,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
+          "name": "batman",
+          "cost": "21",
+          "description": "jogo do batman",
+          "id": "b920c209-05e3-4c4c-b5b7-f5b3b261c3aa"
         }
-
-    ]
+      ]
+    },
+    {
+      "id": "75ff",
+      "name": "apex",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "0dbd",
+      "name": "ww",
+      "budget": "123",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
 }
